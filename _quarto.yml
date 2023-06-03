@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Kyle Farrugia"
+  description: "The blog of Kyle Farrugia"
+  site-url: blog.kyle-farrugia.co.uk
+  back-to-top-navigation: true
+  sidebar:
+    style: "docked"
+    type: "dark"
+    search: false
+    contents:
+      - index.qmd
+      - about.qmd
+      - kyle-farrugia.co.uk
+    tools:
+      - icon: github
+        href: https://github.com/kylef94
+      - icon: twitter
+        href: https://twitter.com/kfarrugia94
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+
+
+
